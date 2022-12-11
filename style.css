@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 15px;
+  font-family: 'Unbounded', cursive;
+  text-align: center;
+  background-color: #62B6B7;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.input-label, #result{
+  font-size: 25px;
+}
+
+.input{
+  height: 50px;
+  width: 250px;
+  border: 2px solid #CB1C8D;
+  border-radius: 10px;
+}
+
+
+#show-btn{
+  height: 30px;
+  width: 90px;
+  border: none;
+  background-color: #CB1C8D;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Unbounded', cursive;
+}
