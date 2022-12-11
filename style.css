@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 main{
   display: flex;
   align-items: center;
